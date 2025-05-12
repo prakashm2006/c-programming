@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=20,b=5,add,sub,divi,mult;
+    add=a+b;
+    sub=a-b;
+    divi=a/b;
+    mult=a*b;
+    printf("add=%d",add);
+    printf("\nsub=%d",sub);
+    printf("\ndivi=%d",divi);
+    printf("\nmult=%d",mult);
+
+    return 0;
+}
