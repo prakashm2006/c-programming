@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int a = 3; //definition
+    int b; //declare
+    b = 5; //initialization
+    int sum = a+b;
+    printf("sum = %d", sum);
+    return 0;
+}
