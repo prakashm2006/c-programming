@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    int amount=100 ,per=10 ,time=1 ,interest;
+    interest= amount + ( amount * per / 100);
+    printf("%d", interest * time);
+
+    return 0;
+}
